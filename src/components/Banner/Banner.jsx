@@ -13,19 +13,19 @@ const Banner = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="w-full bg-[#FCD4D1]">
+    <div className="w-full bg-[#202124]">
       <div className="max-w-7xl mx-auto">
         <Slider {...settings}>
           <div className="py-20 ">
             <div className="flex justify-between items-center">
               <div className="max-w-3xl">
-                <h2 className="text-6xl py-2 text-black font-semibold uppercase">
+                <h2 className="text-6xl py-2 text-white font-semibold uppercase">
                   I am <br />
                 </h2>
                 <h2 className="text-6xl py-2 text-[#D6182A] font-semibold uppercase">
-                  Md Sayed<span className="text-black"> Hasan</span>
+                  Md Sayed<span className="text-white"> Hasan</span>
                 </h2>
-                <h3 className="text-black">
+                <h3 className="text-white">
                   Driven MERN Stack Developer adept at leveraging cutting-edge
                   technologies <br /> to build dynamic and scalable web
                   applications.
@@ -40,7 +40,7 @@ const Banner = () => {
               <div className="mr-32">
                 <img
                   className="rounded-2xl"
-                  src="https://i.ibb.co/M7H95cT/Untitled-design.png"
+                  src="https://i.ibb.co/7rGS6wb/qq-removebg-preview.png"
                   alt=""
                 />
               </div>
@@ -50,12 +50,12 @@ const Banner = () => {
           <div className="py-20">
             <div className="flex justify-center items-center text-center">
               <div className="max-w-5xl">
-                <h2 className="text-6xl py-2 text-black font-semibold mt-10">
+                <h2 className="text-6xl py-2 text-white font-semibold mt-10">
                   I have Completed{" "}
                   <span className="text-[#D6182A]"> 50+ Projects</span> in last
                   6 months
                 </h2>
-                <h3 className="text-black py-3">
+                <h3 className="text-white py-3">
                   Passionate MERN stack developer dedicated to crafting seamless
                   digital experiences <br /> and pushing the boundaries of innovation.
                 </h3>

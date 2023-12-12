@@ -4,9 +4,11 @@ import Sectionheading from "../../shared/Sectionheading/Sectionheading";
 import "./progress.css";
 const Progress = () => {
   return (
-    <div className="grid grid-cols-2 items-center">
+    <div className="grid grid-cols-2 items-center my-8">
       <div>
-        <Sectionheading heading={"My Skills"}></Sectionheading>
+        <h2 className="font-bold text-5xl">
+            My Skills
+        </h2>
       </div>
 
       <div>
