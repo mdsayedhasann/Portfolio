@@ -1,0 +1,30 @@
+ .barBackground {
+    background-color: black;
+  }
+  .htmlWidth{
+      width: 97%;
+  }
+  .cssWidth{
+      width: 95%;
+  }
+  .jsWidth{
+      width: 77%;
+  }
+  .reactWidth{
+      width: 87%;
+  }
+  .nodeWidth{
+      width: 85%;
+  }
+  .expressWidth{
+      width: 75%;
+  }
+  .mongoWidth{
+      width: 82%;
+  }
+  .label {
+    font-size: 14px;
+    color: white;
+  }
+
+  
