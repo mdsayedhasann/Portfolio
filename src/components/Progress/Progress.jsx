@@ -9,6 +9,8 @@ const Progress = () => {
         <h2 className="font-bold text-5xl">
             My Skills
         </h2>
+        <p className="py-4">
+        Skill Spectrum: Unveiling Proficiency Levels Across the Tech Galaxy. Mastery Meter: Gauge My Expertise in Crafting Digital Solutions. Skill Set Showcase: Bridging Creativity with Technical Proficiency. Expertise Unleashed: Elevating Projects through Technical Prowess. Tech Proficiency Barometer: Reflecting Versatility and Innovation. </p>
       </div>
 
       <div>
@@ -120,6 +122,38 @@ const Progress = () => {
               completed={20}
                 className="wrapper"
                 completedClassName="barBackground mongoWidth"
+                bgColor="bgColor"
+                height="5px"
+              />
+            </div>
+          </div>
+          {/* Wordpress */}
+          <div className="my-3">
+            <div className="flex justify-between">
+              <h3>Wordpress</h3>
+              <h3>98%</h3>
+            </div>
+            <div>
+              <ProgressBar
+              completed={98}
+                className="wrapper"
+                completedClassName="barBackground wpWidth"
+                bgColor="bgColor"
+                height="5px"
+              />
+            </div>
+          </div>
+          {/* Woocommerce */}
+          <div className="my-3">
+            <div className="flex justify-between">
+              <h3>Woocommerce</h3>
+              <h3>94%</h3>
+            </div>
+            <div>
+              <ProgressBar
+              completed={94}
+                className="wrapper"
+                completedClassName="barBackground wooWidth"
                 bgColor="bgColor"
                 height="5px"
               />

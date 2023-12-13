@@ -9,7 +9,7 @@ const Projects = () => {
         <Sectionheading heading={'My Recent Projects'}></Sectionheading>
       </div>
 
-      <div className="flex gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="bg-base-200 px-4 py-7  rounded-lg">
           <h3 className="text-2xl font-bold py-3">Matrimoni</h3>
           <p>

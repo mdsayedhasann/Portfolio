@@ -4,12 +4,17 @@ import Header from "../../shared/Header/Header";
 import Footer from "../../shared/Footer/Footer";
 import Projects from "../../components/Projects/Projects";
 import Progress from "../../components/Progress/Progress";
+import AboutMe from "../../components/AboutMe/AboutMe";
 
 const Home = () => {
   return (
     <div>
       <div>
         <Banner></Banner>
+      </div>
+
+      <div className="max-w-7xl mx-auto my-10">
+        <AboutMe></AboutMe>
       </div>
 
         <div className="max-w-7xl mx-auto">

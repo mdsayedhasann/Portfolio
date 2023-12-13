@@ -22,6 +22,12 @@
   .mongoWidth{
       width: 82%;
   }
+  .wpWidth{
+      width: 98%;
+  }
+  .wooWidth{
+      width: 94%;
+  }
   .label {
     font-size: 14px;
     color: white;
