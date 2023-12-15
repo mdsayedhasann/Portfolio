@@ -66,23 +66,23 @@ const Projects = () => {
           {/*  */}
           {/*  */}
           <div className="flex gap-3 my-4">
-            <Link to={"https://matrimoni-1245b.web.app/"}>
+            <Link to={"https://bespoke-pie-ea5930.netlify.app"}>
               <button className="px-2 py-1 rounded-lg bg-[#D6182A] text-white">
-                {" "}
-                Live Site{" "}
+                
+                Live Site
               </button>
             </Link>
             <Link to={"https://github.com/mdsayedhasann/mealmingle-client"}>
               <button className="px-2 py-1 rounded-lg bg-black text-white">
-                {" "}
-                Github Client{" "}
+
+                Github Client
               </button>
             </Link>
 
             <Link to={"https://github.com/mdsayedhasann/mealmingle-server"}>
               <button className="px-2 py-1 rounded-lg bg-black text-white">
-                {" "}
-                Github Server{" "}
+               
+                Github Server
               </button>
             </Link>
           </div>

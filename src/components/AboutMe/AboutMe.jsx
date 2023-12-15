@@ -1,19 +1,23 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Sectionheading from "../../shared/Sectionheading/Sectionheading";
-import { FaBeer, FaGithub } from "react-icons/fa";
+import { FaBeer, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
     <div>
       <Sectionheading heading={"About Me"}></Sectionheading>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
         <div>
-          <img
+
+            <div className="flex justify-center">
+            <img className="py-4"
             src="https://i.ibb.co/WyQ5m68/image-removebg-preview.png"
             alt=""
           />
+            </div>
+          
         </div>
         <div>
           <h2 className="text-5xl font-bold">
@@ -36,9 +40,10 @@ const AboutMe = () => {
             wrapper="span"
             speed={50}
             style={{
-              fontSize: "2em",
+              fontSize: "24px",
               display: "inline-block",
               color: "#D6182A",
+              fontWeight: "bold",
             }}
             repeat={Infinity}
           />
@@ -48,10 +53,25 @@ const AboutMe = () => {
             experiences, I thrive on coding challenges, constantly evolving to
             deliver cutting-edge solutions
           </p>
-          <div className="flex my-3">
-            <Link to={'https://github.com/mdsayedhasann'}>
-              <button className="p-2 bg-slate-100 rounded-lg">
+          <div className="flex my-3 gap-3">
+            <Link to={"https://www.linkedin.com/in/sayedhasan1/"}>
+              <button className="p-2 bg-slate-100 rounded-lg hover:bg-slate-200">
+                <FaLinkedin></FaLinkedin>
+              </button>
+            </Link>
+            <Link to={"https://twitter.com/MdSayed16411578"}>
+              <button className="p-2 bg-slate-100 rounded-lg hover:bg-slate-200">
+                <FaTwitter></FaTwitter>
+              </button>
+            </Link>
+            <Link to={"https://github.com/mdsayedhasann"}>
+              <button className="p-2 bg-slate-100 rounded-lg hover:bg-slate-200">
                 <FaGithub></FaGithub>
+              </button>
+            </Link>
+            <Link to={"https://www.instagram.com/sayedhasan0011/"}>
+              <button className="p-2 bg-slate-100 rounded-lg hover:bg-slate-200">
+                <FaInstagram></FaInstagram>
               </button>
             </Link>
           </div>
